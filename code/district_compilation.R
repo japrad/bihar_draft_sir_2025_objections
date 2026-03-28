@@ -1,6 +1,6 @@
 library(tidyverse)
 
-district_files <- list.files(path = "data/extracted_csv_files/addition/district_wise")
+district_files <- list.files(path = "data/addition_csv/district_wise")
 
 compiled_data <- tibble(
   district = character(0),

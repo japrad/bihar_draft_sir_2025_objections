@@ -11,7 +11,7 @@ test_item = NULL # for testing local variables. remove later
 # Working directory is set to root directory 
 
 input_directory <- paste0("data/input_pdf_files/", district_name)
-output_file <- paste0("data/extracted_csv_files/addition", district_name, ".csv")
+output_file <- paste0("data/addition_csv/district_wise/", district_name, ".csv")
 
 addition_files <- list.files(path = input_directory, pattern = "_Addition_")
 
